@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo del contenedor del CV */
+  .cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo del header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  header p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  header a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo de la barra de navegación */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .nav-link:hover {
+    color: #dddddd !important;
+  }
+  
+  /* Estilo de la sección resumen */
+  .summary {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    line-height: 1.6em;
+    color: #555;
+  }
+  
+  /* Estilo de las secciones principales */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Estilo de las experiencias laborales y educación */
+  .job, .school {
+    margin-bottom: 20px;
+  }
+  
+  .job h3, .school h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #34495e;
+  }
+  
+  .job p, .school p {
+    margin: 0;
+    font-size: 1em;
+    color: #777;
+  }
+  
+  /* Estilo de las habilidades y los idiomas */
+  .languages, .skills {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  /* Estilo de los enlaces generales */
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo de los títulos */
+  .job h3, .school h3, .summary, .languages, .skills {
+    color: #2c3e50;
+  }
+  
